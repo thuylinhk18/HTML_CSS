@@ -1,0 +1,39 @@
+.row1{
+    display: grid;
+    grid-template-columns: 10% 48% 12% 10% 10% 10%;
+}
+.row1 div{
+    margin: auto;
+}
+.row2 text{
+    position: absolute;
+    top: 30%;
+    left: 31%;
+    color: aliceblue;
+    font-size: 20px;
+}
+.row2 div{
+    position: absolute;
+    left: 10%;
+}
+.row3{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.row3 img{
+    border-radius: 10px;
+   margin-top: 1%;
+}
+
+.row4{
+    display: grid;
+    grid-template-columns: 66.66% 33.33%;
+}
+hr{
+    margin-top: 5%;
+    width: 100%;
+}
+body{
+    margin-left:10% ;
+    margin-right:10%;
+}
