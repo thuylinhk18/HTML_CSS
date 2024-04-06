@@ -1,0 +1,51 @@
+body {
+    background-color: pink;
+
+    .row2 div {
+        font-size: 18px;
+        color: aliceblue;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width: 688px) {
+    .navbar {
+        display: none;
+    }
+    body {
+        background-color: lightblue;
+
+
+        .row2 h1 {
+            font-size: 30px;
+            margin-left: 13%;
+        }
+
+
+    }
+}
+
+
+/*desktop*/
+@media only screen and (min-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    body {
+        background-color: whitesmoke;
+        .row1 .first-image{
+            width: 10%;
+        }
+      
+        .row2 h1 {
+            font-size: 30px;
+            margin-left: 10%;
+        }
+        
+       
+        
+    }
+}
+body {
+    overflow-x: hidden; /* Ẩn thanh cuộn ngang */
+  }
