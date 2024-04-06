@@ -48,4 +48,6 @@ body {
 }
 body {
     overflow-x: hidden; /* Ẩn thanh cuộn ngang */
-  }
+    margin-left: 10%;
+    margin-right: 10%;
+}
