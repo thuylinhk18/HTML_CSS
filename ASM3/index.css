@@ -1,10 +1,24 @@
+body{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+.row4{
+    width: 100%;
+    padding-bottom: 4px;
+    border-radius: 7px;
+}
+
+
 body {
     background-color: pink;
 
-    .row2 div {
-        font-size: 18px;
-        color: aliceblue;
+    .row2 {
+        position: relative;
     }
+    
+
 }
 
 /*tablet*/
@@ -16,9 +30,16 @@ body {
         background-color: lightblue;
 
 
-        .row2 h1 {
-            font-size: 30px;
-            margin-left: 13%;
+        .row2 text{
+            position: absolute;
+            top: 5%;
+            left: 20%;
+            right: 10%;
+            color: aliceblue;
+        }
+        .row2 div{
+            position: absolute;
+            left: 12%;
         }
 
 
@@ -33,18 +54,24 @@ body {
     }
     body {
         background-color: whitesmoke;
-        .row1 .first-image{
-            width: 10%;
-        }
-      
-        .row2 h1 {
-            font-size: 30px;
-            margin-left: 10%;
-        }
-        
-       
-        
     }
+    
+    .row2 text{
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        right: 10%;
+        color: aliceblue;
+    }
+    .row2 div{
+        position: absolute;
+        left: 12%;
+    }
+    .row4 img{
+        border-radius: 10px;
+        margin-bottom: 5%;
+    }
+    
 }
 body {
     overflow-x: hidden; /* Ẩn thanh cuộn ngang */
