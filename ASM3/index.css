@@ -1,7 +1,7 @@
 
 /* smart phone */
 @media only screen and (min-width: 576px){
-body {
+.container {
     background-color: pink;
 
     .row2 img{
@@ -47,7 +47,7 @@ body {
 
 /*desktop*/
 @media only screen and (min-width: 992px) {
-    body {
+    .container {
         background-color: whitesmoke;
         .row2 image{
             position: relative;
