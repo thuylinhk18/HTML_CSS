@@ -28,16 +28,18 @@ body {
 @media only screen and (min-width: 688px) {
     body {
         background-color: lightblue;
-        .row2 text{
-            position: absolute;
-            top: 5%;
-            left: 20%;
-            right: 10%;
-            color: aliceblue;
+        .row2 image{
+            position: relative;
         }
-        .row2 div{
+        .row2 text{
+            color: aliceblue;
             position: absolute;
-            left: 12%;
+            top: 10%;
+            left: 19%;
+           
+        }
+        .row2 h2{
+            margin-left: 15%;
         }
 
 
