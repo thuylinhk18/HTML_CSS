@@ -51,24 +51,22 @@ body {
 @media only screen and (min-width: 768px) {
     body {
         background-color: whitesmoke;
-    }
+        .row2 image{
+            position: relative;
+        }
+        .row2 text{
+            color: aliceblue;
+            position: absolute;
+            font-size: 170%;
+            top: 15%;
+            left: 31%;
+           
+        }
+        .row2 h2{
+            margin-left: 20%;
+        }
     
-    .row2 text{
-        position: absolute;
-        top: 20%;
-        left: 30%;
-        right: 10%;
-        color: aliceblue;
-    }
-    .row2 div{
-        position: absolute;
-        left: 12%;
-    }
-    .row4 img{
-        border-radius: 10px;
-        margin-bottom: 5%;
-    }
-    
+}
 }
 body {
     overflow-x: hidden; /* Ẩn thanh cuộn ngang */
