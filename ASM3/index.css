@@ -1,7 +1,7 @@
 
 /* smart phone */
 @media only screen and (min-width: 576px){
-.container {
+body {
     background-color: pink;
 
     .row2 img{
@@ -39,6 +39,10 @@
         .row2 h2{
             margin-left: 5%;
         }
+        .img-taller {
+            height: 407px; /* Độ cao mong muốn */
+        }
+    
 
 
     }
@@ -47,7 +51,7 @@
 
 /*desktop*/
 @media only screen and (min-width: 992px) {
-    .container {
+    body {
         background-color: whitesmoke;
         .row2 image{
             position: relative;
