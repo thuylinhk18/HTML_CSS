@@ -65,6 +65,9 @@ body {
         .row2 h2{
             margin-left: 20%;
         }
+        .img-taller {
+            height: 669px; /* Độ cao mong muốn */
+        }
     
 }
 }
