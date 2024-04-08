@@ -1,5 +1,6 @@
 
 /* smart phone */
+@media only screen and (min-width: 576px){
 body {
     background-color: pink;
 
@@ -9,24 +10,21 @@ body {
     .row2 text{
     color: aliceblue;
     position: absolute;
-    left: 15%;
+    left: 20%;
     }
     .row2 h2{
-        margin-left: 10%;
+        margin-left: 0%;
     }
     .row4 img{
         border-radius: 10px;
         margin-top: 5%;
     }
-
-    
-    
-
+}
 }
 
 /*tablet*/
-@media only screen and (min-width: 688px) {
-    body {
+@media only screen and (min-width: 768px) {
+    .container {
         background-color: lightblue;
         .row2 image{
             position: relative;
@@ -34,12 +32,12 @@ body {
         .row2 text{
             color: aliceblue;
             position: absolute;
+            font-size: 20px;
             top: 10%;
-            left: 19%;
-           
+            left: 32%;
         }
         .row2 h2{
-            margin-left: 15%;
+            margin-left: 5%;
         }
 
 
@@ -48,7 +46,7 @@ body {
 
 
 /*desktop*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     body {
         background-color: whitesmoke;
         .row2 image{
@@ -59,19 +57,19 @@ body {
             position: absolute;
             font-size: 170%;
             top: 15%;
-            left: 31%;
+            left: 26%;
            
         }
         .row2 h2{
             margin-left: 20%;
         }
         .img-taller {
-            height: 669px; /* Độ cao mong muốn */
+            height: 570px; /* Độ cao mong muốn */
         }
     
 }
 }
-body {
+.container {
     overflow-x: hidden; /* Ẩn thanh cuộn ngang */
     margin-left: 10%;
     margin-right: 10%;
