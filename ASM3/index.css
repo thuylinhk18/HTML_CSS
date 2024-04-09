@@ -7,18 +7,12 @@ body {
 .row2 {
     position: relative;
 }
-
 .row2 text {
     color: aliceblue;
     position: absolute;
     font-size: 14px;
     left: 2px;
 }
-
-
-
-
-
 
 /*tablet*/
 @media only screen and (min-width: 768px) {
@@ -32,11 +26,7 @@ body {
     .row2 h3 {
         margin-left: 75px ;
     }
-
-
 }
-
-
 
 /*desktop*/
 @media only screen and (min-width: 992px) {
@@ -52,7 +42,5 @@ body {
         .row2 h3 {
             margin-left: 150px;
         }
-
-
     }
 }
