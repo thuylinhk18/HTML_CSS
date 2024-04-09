@@ -1,68 +1,58 @@
-/* Quy tắc CSS chung */
-.row2 img {
+/* smart phone */
+
+body {
+    background-color: whitesmoke;
+}
+
+.row2 {
     position: relative;
 }
 
 .row2 text {
     color: aliceblue;
     position: absolute;
-    left: 20%;
+    font-size: 14px;
+    left: 2px;
 }
 
-.row2 h2 {
-    margin-left: 0%;
-}
 
-.row4 img {
-    border-radius: 10px;
-    margin-top: 5%;
-}
 
-.container {
-    overflow-x: hidden; /* Ẩn thanh cuộn ngang */
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
-/* smart phone */
-@media only screen and (min-width: 576px) {
-    body {
-        background-color: pink;
-    }
-}
 
-/* Tablet */
+
+/*tablet*/
 @media only screen and (min-width: 768px) {
-    body {
-        background-color: lightblue;
-    }
+    
+
     .row2 text {
         font-size: 20px;
-        top: 10%;
-        left: 32%;
+        left: 80px;
     }
-    .row2 h2 {
-        margin-left: 5%;
+
+    .row2 h3 {
+        margin-left: 75px ;
     }
-    .img-taller {
-        height: 407px; /* Độ cao mong muốn */
-    }
+
+
 }
 
-/* Desktop */
+
+
+/*desktop*/
 @media only screen and (min-width: 992px) {
-    body {
-        background-color: whitesmoke;
-    }
-    .row2 text {
-        font-size: 170%;
-        top: 15%;
-        left: 26%;
-    }
-    .row2 h2 {
-        margin-left: 20%;
-    }
-    .img-taller {
-        height: 570px; /* Độ cao mong muốn */
+    .container {
+
+        .row2 text {
+            font-size: 28px;
+            top: 25px;
+            left: 280px;
+
+        }
+
+        .row2 h3 {
+            margin-left: 150px;
+        }
+
+
     }
 }
