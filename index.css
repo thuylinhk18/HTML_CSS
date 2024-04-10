@@ -4,5 +4,9 @@
 .FVC-img img {
     width: 100%;
 }
-
+.FVC-text{
+    color: white;
+    position: absolute;
+    top: 0px;
+}
 
