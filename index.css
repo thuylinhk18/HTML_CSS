@@ -25,6 +25,10 @@
 }
 /*desktop*/
 @media only screen and (min-width: 992px) {
-    
+    .FVC-text{
+        position: absolute;
+        margin-left: 250px;
+        font-size: 30px;
+    }
 }
 
